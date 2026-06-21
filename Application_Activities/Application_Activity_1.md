@@ -1,4 +1,4 @@
-# 🚨 Application Activity 1: Mechatronics QA Engineering Audit (15% Final Grade)
+# 🚨 Mechatronics QA Engineering Audit (15% Final Grade)
 
 **Institution:** Batangas State University – The National Engineering University  
 **Module:** Industrial Robotics & International Compliance Standards (ISO/IEC)  
@@ -21,16 +21,14 @@ You are strictly prohibited from using basic translation tools to blindly "guess
 3. **The Interrogation:** Prompt the AI as a QA Engineer. *(Example: "Act as a Mechatronics QA Auditor. Analyze this translated procedure. Does this mechanical logic make safe, physical sense according to ISO standards? Flag any relay states, kinematic bounds, or thermal limits that could cause a catastrophic failure.")*
 4. **The Isolation:** Identify the exact logic error. 
 
----
+## 📝 Deliverables & Submission
+Your group must submit a formal QA Audit Report via a **Pull Request** to this repository (or your designated submission portal) containing:
 
-## 💻 GitHub Submission Instructions
-Your group must submit a formal QA Audit Report via a **Pull Request (PR)** to this repository. Follow these strict version control procedures:
+* **Group Number & Sector:** (e.g., Group 1: Heavy Manufacturing)
+* **Target Language:**
+* **The Raw Translation:** (The direct English output from DeepL/Google).
+* **The Fatal Flaw:** (Identify the exact sabotaged term, e.g., "normally open" vs "normally closed").
+* **The Engineering Consequence:** (A brief, highly technical explanation of exactly *why* this error would cause a physical catastrophe on the factory floor).
+* **The Corrected Code/Text:** (The repaired sentence demonstrating proper compliance).
 
-### Step 1: Fork and Clone
-1. **Fork** this repository to your group leader's GitHub account.
-2. **Clone** the forked repository to your local machine.
-
-### Step 2: Create a Branch
-Create a new branch for your group's audit using the following naming convention *(replace XX with your group number)*:  
-```bash
-git checkout -b audit-group-XX
+> **⚠️ WARNING:** Do not simply look for an "extra zero" in the numbers. The sabotage is embedded in the **engineering logic** (e.g., sensor configurations, valve states, material properties). You must understand the physics of the entire paragraph to pass this audit.
