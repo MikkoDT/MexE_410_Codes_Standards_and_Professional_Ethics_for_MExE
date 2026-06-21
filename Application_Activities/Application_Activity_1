@@ -31,40 +31,6 @@ Your group must submit a formal QA Audit Report via a **Pull Request (PR)** to t
 2. **Clone** the forked repository to your local machine.
 
 ### Step 2: Create a Branch
-Create a new branch for your group's audit using the following naming convention:  
-`git checkout -b audit-group-XX` *(replace XX with your group number)*
-
-### Step 3: Create Your Report
-1. Navigate to the `/submissions` folder in the repository.
-2. Create a new Markdown file named `Group_XX_Audit.md`.
-3. Copy the **Audit Report Template** (provided below) into your file and fill it out completely.
-
-### Step 4: Commit, Push, and Pull Request
-1. Commit your changes: `git commit -m "Add Group XX QA Audit Report"`
-2. Push to your fork: `git push origin audit-group-XX`
-3. Open a **Pull Request** against the main repository. Title your PR: `Group XX - [Industry Sector] Audit`.
-
-> **⚠️ WARNING:** Do not simply look for an "extra zero" in the numbers. The sabotage is embedded in the **engineering logic** (e.g., sensor configurations, valve states, material properties). You must understand the physics of the entire paragraph to pass this audit.
-
----
-
-## 📄 Audit Report Template
-Copy this exact format into your markdown file (`Group_XX_Audit.md`):
-
-```text
-# QA Audit Report: Group [Insert Number]
-
-**Sector:** [Insert Industry Sector]  
-**Target Language:** [Insert Language]  
-
-### 1. Raw Baseline Translation
-> [Paste the raw English output you received from DeepL/Google Translate here]
-
-### 2. The Fatal Flaw
-**Sabotaged Term / Logic:** [Identify the exact error, e.g., "normally open" instead of "normally closed"]
-
-### 3. Engineering Consequence Analysis
-[Provide a highly technical explanation of exactly *why* this error would cause a physical catastrophe on the factory floor. Cite the specific physics, kinematics, or electrical principles involved.]
-
-### 4. Corrective Action
-**Corrected Text:** [Provide the repaired sentence demonstrating proper compliance and safe operation.]
+Create a new branch for your group's audit using the following naming convention *(replace XX with your group number)*:  
+```bash
+git checkout -b audit-group-XX
