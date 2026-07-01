@@ -1,8 +1,8 @@
 # Midterm Project: Mechatronics Innovation & ISO/IEC Accreditation Simulation
 
-**Institution:** Batangas State University – The National Engineering University  
-**Course:** MEXE 410: Codes, Standards, and Professional Ethics for MExE  
-**Target:** 3rd Year BS Mechatronics Engineering  
+# **Institution:** Batangas State University – The National Engineering University  
+# **Course:** MEXE 410: Codes, Standards, and Professional Ethics for MExE  
+# **Target:** 3rd Year BS Mechatronics Engineering  
 
 ---
 
