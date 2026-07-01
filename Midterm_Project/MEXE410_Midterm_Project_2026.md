@@ -21,7 +21,7 @@ Your deadlines depend strictly on your section. All submissions are due by **5:0
 ## 📌 The Scenario
 You are the lead engineering team at a Mechatronics startup. Your group has designed a new mechatronic product or service. 
 
-Before this product can be sold legally, it must go through a **Conformity Assessment**[cite: 1]. This involves a set of processes to show that your product meets the requirements of a specific standard[cite: 1]. 
+Before this product can be sold legally, it must go through a **Conformity Assessment**. As defined in Module 2, this involves a set of processes to show that your product meets the requirements of a specific standard[cite: 1]. 
 
 To simulate this, the class will do **Cross-Auditing**. You will be directly defending your product in a debate against your own classmates, and you will be auditing their products in return. Every group will play two roles at the same time:
 1. **The Innovators:** Defending your engineering choices against your classmates.
@@ -37,12 +37,12 @@ To simulate this, the class will do **Cross-Auditing**. You will be directly def
 **Role:** The Innovators  
 Invent a unique mechatronic product. You only need to write the engineering documents. Submit a **Technical Report** containing:
 * **Product Description:** What it does, who uses it, and its main parts.
-* **Safety Architecture:** Clearly explain the emergency stops, fail-safes, and physical limits. Remember that codes set the minimum acceptable level of safety, while standards tell you "how to" execute them[cite: 1].
-* **Standards Mapping:** Name at least **two** specific standards from Module 2 that apply to your product. Explain exactly how your product follows them. You can use:
-  * **ISO 10218-1:** For the inherent safe design of the robot[cite: 1].
+* **Safety Architecture:** Clearly explain the emergency stops, fail-safes, and physical limits. Remember the distinction from Module 2: codes set the minimum acceptable level of safety, while standards tell you "how to" execute them[cite: 1].
+* **Standards Mapping:** Name at least **two** specific standards from Module 2 that apply to your product, and explain exactly how your product follows them. You can use:
+  * **ISO 10218-1:** For the inherent safe design of an industrial robot[cite: 1].
   * **ISO 10218-2:** For the safety of the robot system and cell integration[cite: 1].
   * **NFPA 70 or 70E:** For electrical safety[cite: 1].
-  * **IEEE Standards:** Like IEEE 802.11 for Wi-Fi[cite: 1].
+  * **IEEE Standards:** Such as IEEE 802.11 for Wi-Fi interoperability[cite: 1].
   * **Philippine Electrical/Mechanical Codes**[cite: 1].
 
 ### Phase 2: The Report Exchange & Internal Review
@@ -54,7 +54,7 @@ The lecturer will swap the reports. Your group will receive the Technical Report
 ### Phase 3: The Live Defense and Classmate Debate (Presentation Date)
 **Role:** Both Innovators and Auditors  
 * **The Pitch (5 mins):** The Innovators present their product and explain their standards mapping.
-* **The Debate (5-10 mins):** The assigned ISO Auditors (your classmates) take the floor. They use their 5 prepared questions to challenge the Innovators live. The Innovators must defend their engineering choices using facts and standards. 
+* **The Debate (5-10 mins):** The assigned ISO Auditors (your classmates) take the floor. They use their 5 prepared questions to challenge the Innovators live. The Innovators must defend their engineering choices using facts and the standards outlined in Module 2. 
 
 ### Phase 4: Non-Conformance & CAPA Resolution
 **Role:** Both Innovators and Auditors  
@@ -68,10 +68,10 @@ The lecturer will swap the reports. Your group will receive the Technical Report
 
 ### 🛠️ Innovator's Standards Mapping Example
 **Product:** Automated Welding Robot Cell
-* **Mapped Standard 1: ISO 10218-1 (Industrial Robot Safety)**[cite: 1]
+* **Mapped Standard 1: ISO 10218-1 (Industrial Robot Safety)**
   * *How we comply:* Our robot arm is programmed to have an inherent safe design by limiting its maximum joint speed to 250 mm/s when a human enters the collaborative workspace, reducing the risk of impact hazards[cite: 1].
-* **Mapped Standard 2: Philippine Electrical Code**[cite: 1]
+* **Mapped Standard 2: Philippine Electrical Code**
   * *How we comply:* The entire power distribution system of the robot cell uses materials and wiring sizes that establish the basic standard for the safe use of electricity for power and heat[cite: 1].
 
 ### 🕵️ Auditor's Debate Question Example (Based on the mapping above)
-* *"In your mapping, you stated that the robot slows down to 250 mm/s when a human enters the space to comply with ISO 10218-1. However, if the main sensor loses power, what is the mechanical fail-safe? Have you considered the risk of the sensor failing, and does that comply with the minimum acceptable level of safety?"*
+* *"In your mapping, you stated that the robot slows down to 250 mm/s when a human enters the space to comply with ISO 10218-1[cite: 1]. However, if the main sensor loses power, what is the mechanical fail-safe? Have you considered the risk of the sensor failing, and does that comply with the minimum acceptable level of safety outlined in Module 2?"*
