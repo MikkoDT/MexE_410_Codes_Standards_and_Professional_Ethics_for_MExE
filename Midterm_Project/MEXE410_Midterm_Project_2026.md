@@ -21,7 +21,7 @@ Your deadlines depend strictly on your section. All submissions are due by **5:0
 ## 📌 The Scenario
 You are the lead engineering team at a Mechatronics startup. Your group has designed a new mechatronic product or service. 
 
-Before this product can be sold legally, it must go through a **Conformity Assessment**. As defined in Module 2, this involves a set of processes to show that your product meets the requirements of a specific standard[cite: 1]. 
+Before this product can be sold legally, it must go through a **Conformity Assessment**. As defined in Module 2, this involves a set of processes to show that your product meets the requirements of a specific standard. 
 
 To simulate this, the class will do **Cross-Auditing**. You will be directly defending your product in a debate against your own classmates, and you will be auditing their products in return. Every group will play two roles at the same time:
 1. **The Innovators:** Defending your engineering choices against your classmates.
@@ -35,31 +35,49 @@ To simulate this, the class will do **Cross-Auditing**. You will be directly def
 
 ### Phase 1: Product Development & Standards Mapping (Submission Deadline)
 **Role:** The Innovators  
-Invent a unique mechatronic product. You only need to write the engineering documents. Submit a **Technical Report** containing:
-* **Product Description:** What it does, who uses it, and its main parts.
-* **Safety Architecture:** Clearly explain the emergency stops, fail-safes, and physical limits. Remember the distinction from Module 2: codes set the minimum acceptable level of safety, while standards tell you "how to" execute them[cite: 1].
-* **Standards Mapping:** Name at least **two** specific standards from Module 2 that apply to your product, and explain exactly how your product follows them. You can use:
-  * **ISO 10218-1:** For the inherent safe design of an industrial robot[cite: 1].
-  * **ISO 10218-2:** For the safety of the robot system and cell integration[cite: 1].
-  * **NFPA 70 or 70E:** For electrical safety[cite: 1].
-  * **IEEE Standards:** Such as IEEE 802.11 for Wi-Fi interoperability[cite: 1].
-  * **Philippine Electrical/Mechanical Codes**[cite: 1].
+Invent a unique mechatronic product. You only need to write the engineering documents, which will be hosted on GitHub. 
+
+1. **Repository Setup:** Create a GitHub repository for your group project. You must name it exactly as follows:
+   `Midterm_MEXE410_Section_Group#_2026` *(Example: Midterm_MEXE410_3301_Group1_2026)*. 
+2. **Collaborators:** Add the lecturer AND the members of your assigned Auditing Group as collaborators to this repository.
+3. **The Technical Report:** Inside your repository's `README.md` file, write your report containing:
+   * **Product Description:** What it does, who uses it, and its main parts.
+   * **Safety Architecture:** Clearly explain the emergency stops, fail-safes, and physical limits. Remember the distinction from Module 2: codes set the minimum acceptable level of safety, while standards tell you "how to" execute them.
+   * **Standards Mapping:** Name at least **two** specific standards from Module 2 that apply to your product, and explain exactly how your product follows them. You can use ISO 10218, NFPA codes, IEEE standards, or Philippine Electrical/Mechanical Codes.
 
 ### Phase 2: The Report Exchange & Internal Review
 **Role:** The ISO Auditors  
-The lecturer will swap the reports. Your group will receive the Technical Report from another group of classmates.
-* **The Mission:** Read their document carefully. As professional ISO Auditors, look for the physical safety gaps and logic errors your classmates missed.
-* **The Deliverable:** Write an **Audit Checklist**. This is a list of 5 highly technical, difficult questions you will ask them during the live debate.
+Your group will be granted collaborator access to the Innovators' repository. 
+* **The Mission:** Read their `README.md` carefully. As professional ISO Auditors, look for the physical safety gaps and logic errors your classmates missed.
+* **The Deliverable (Keep it Secret & Print it!):** Write your **Audit Checklist**. This must include your 5 highly technical, difficult questions, **along with your expected answers or engineering notes** justifying why you are asking them. 
+  * **Do NOT upload this to their repository yet.** If you upload it early, they will see your questions and prepare scripted answers. 
+  * **You must bring a printed, physical copy** of this checklist (questions and expected answers) on Presentation Day to use during the live debate and to submit to the lecturer.
 
 ### Phase 3: The Live Defense and Classmate Debate (Presentation Date)
 **Role:** Both Innovators and Auditors  
-* **The Pitch (5 mins):** The Innovators present their product and explain their standards mapping.
-* **The Debate (5-10 mins):** The assigned ISO Auditors (your classmates) take the floor. They use their 5 prepared questions to challenge the Innovators live. The Innovators must defend their engineering choices using facts and the standards outlined in Module 2. 
+*(This is your live, face-to-face evaluation).*
+* **The Pitch (5 mins):** The Innovators present the product from their `README.md` and explain their standards mapping.
+* **The Debate (5-10 mins):** The assigned ISO Auditors take the floor. They will use their **printed physical checklist** to challenge and cross-examine the Innovators live. The Innovators must respond immediately to the questions and defend their engineering choices using facts and the standards outlined in Module 2. 
 
 ### Phase 4: Non-Conformance & CAPA Resolution
 **Role:** Both Innovators and Auditors  
-* **The NCR (From Auditors):** The auditing group writes a formal **Non-Conformance Report (NCR)** listing the major standards violations found during the debate.
-* **The CAPA (From Innovators):** The innovating group must write a **Corrective and Preventive Action (CAPA)** plan. Explain exactly how you will re-engineer your product to fix the mistakes your classmates listed in the NCR.
+After the live debate concludes, all formal audit documents must be uploaded to the Innovators' repository for the lecturer to grade.
+* **The Audit Trail (From Auditors):** The auditing group must now upload their `Phase2_Audit_Checklist.md` to the Innovators' repository to prove what they asked. Then, they must create a new file named `Phase4_NCR.md`. This is the formal Non-Conformance Report listing the major standards violations the Innovators failed to defend during the debate.
+* **The CAPA (From Innovators):** The innovating group must review the NCR and create a final file named `Phase4_CAPA.md` (Corrective and Preventive Action). In this file, explain exactly how you will re-engineer your product to fix the mistakes your classmates listed in the NCR.
+
+---
+
+## 📊 Grading Rubric (100% Total)
+
+**As Innovators (50%):**
+* **Technical Report (20%):** Accuracy of standards used and details of the safety features.
+* **Live Defense (15%):** Ability to professionally debate classmates, answer questions, and defend engineering choices.
+* **CAPA Resolution (15%):** How realistic and compliant the proposed engineering fixes are.
+
+**As ISO Auditors (50%):**
+* **Audit Checklist (20%):** The technical difficulty and relevance of the 5 prepared questions.
+* **The Debate (15%):** Professionalism, critical thinking, and the ability to spot and argue errors live against classmates.
+* **The NCR (15%):** Accuracy in naming specific ISO/IEC standards when listing the product's violations.
 
 ---
 
@@ -69,9 +87,9 @@ The lecturer will swap the reports. Your group will receive the Technical Report
 ### 🛠️ Innovator's Standards Mapping Example
 **Product:** Automated Welding Robot Cell
 * **Mapped Standard 1: ISO 10218-1 (Industrial Robot Safety)**
-  * *How we comply:* Our robot arm is programmed to have an inherent safe design by limiting its maximum joint speed to 250 mm/s when a human enters the collaborative workspace, reducing the risk of impact hazards[cite: 1].
+  * *How we comply:* Our robot arm is programmed to have an inherent safe design by limiting its maximum joint speed to 250 mm/s when a human enters the collaborative workspace, reducing the risk of impact hazards.
 * **Mapped Standard 2: Philippine Electrical Code**
-  * *How we comply:* The entire power distribution system of the robot cell uses materials and wiring sizes that establish the basic standard for the safe use of electricity for power and heat[cite: 1].
+  * *How we comply:* The entire power distribution system of the robot cell uses materials and wiring sizes that establish the basic standard for the safe use of electricity for power and heat.
 
 ### 🕵️ Auditor's Debate Question Example (Based on the mapping above)
-* *"In your mapping, you stated that the robot slows down to 250 mm/s when a human enters the space to comply with ISO 10218-1[cite: 1]. However, if the main sensor loses power, what is the mechanical fail-safe? Have you considered the risk of the sensor failing, and does that comply with the minimum acceptable level of safety outlined in Module 2?"*
+* *"In your mapping, you stated that the robot slows down to 250 mm/s when a human enters the space to comply with ISO 10218-1. However, if the main sensor loses power, what is the mechanical fail-safe? Have you considered the risk of the sensor failing, and does that comply with the minimum acceptable level of safety outlined in Module 2?"*
