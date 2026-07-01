@@ -35,7 +35,7 @@ To simulate this, the class will do **Cross-Auditing**. You will be directly def
 
 ### Phase 1: Product Development & Standards Mapping (Submission Deadline)
 **Role:** The Innovators  
-Invent a unique mechatronic product. You only need to write the engineering documents, which will be hosted on GitHub. 
+Invent a unique mechatronic product or service. You only need to write the engineering documents, which will be hosted on GitHub. 
 
 1. **Repository Setup:** Create a GitHub repository for your group project. You must name it exactly as follows:
    `Midterm_MEXE410_Section_Group#_2026` *(Example: Midterm_MEXE410_3301_Group1_2026)*. 
