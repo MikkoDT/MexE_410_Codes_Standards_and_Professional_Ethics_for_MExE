@@ -10,10 +10,10 @@
 
 Your deadlines depend strictly on your section. All submissions are due by **5:00 PM** on the dates below.
 
-| Section | Groups | Project Creation & Submission Deadline | Live Presentation Date |
+| Section | Groups | Repository Submission Deadline | Live Presentation Date |
 | :--- | :--- | :--- | :--- |
-| **MEXE-3301** | 10 | July 5, 2026 (5:00 PM) | July 16, 2026 |
-| **MEXE-3302** | 12 | July 4, 2026 (5:00 PM) | July 16, 2026 |
+| **MEXE-3301** | 10 | July 8, 2026 (5:00 PM) | July 16, 2026 |
+| **MEXE-3302** | 12 | July 8, 2026 (5:00 PM) | July 16, 2026 |
 | **MEXE-3303** | 12 | July 4-5, 2026 (Submit: July 5, 5:00 PM) | July 11, 2026 (5:00 PM, Face-to-Face) |
 
 ---
