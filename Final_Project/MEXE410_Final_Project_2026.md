@@ -76,12 +76,4 @@ Presentation day will not be a standard slideshow. We will set up dedicated play
 
 ---
 
-## 📊 Grading Rubric (100% Total)
 
-| Criteria | Description | Weight |
-| :--- | :--- | :--- |
-| **Course Integration (The Science)** | How accurately and effectively the game integrates real engineering codes, ISO/IEC standards, and ethical dilemmas from the assigned topic and referenced modules. | 30% |
-| **Game Mechanics (The Fun)** | Is the game balanced for 2-4 players? Are the rules logical, engaging, and functional without constant arguments or broken loops? | 25% |
-| **GitHub Documentation** | The clarity of the `README.md` rulebook, the quality of the developer log, and the completion of the recorded video playtest. | 20% |
-| **Physical Craftsmanship** | The effort, creativity, and industrial utility put into the physical creation of the board, cards, and game pieces. | 10% |
-| **Live Playtest Execution** | How professionally the group teaches the rules, manages the live players (faculty/peers), and runs the session at their playtest station in a focused, quiet environment. | 15% |
